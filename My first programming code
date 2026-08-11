@@ -9,7 +9,7 @@ int main(){
  char letter='$';
  float rating=9.1;
  printf("Rating:%.1f\n", rating );
- if(folloers>=134){
+ if(followers>=134){
     printf("lie\n");
  }
  else{
