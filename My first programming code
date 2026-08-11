@@ -1,19 +1,18 @@
 #include<stdio.h>
 int main(){
- char name[]= "shaiksahebpasha";
+ char name[]= "SoulMonarch";
  printf("Name: %s\n", name);
- int marks=100;
- printf("Marks:%d\n",marks);
- float weight=65.7;
- printf("Weight:%.1f\n", weight );
+ int followers=134;
+ printf("Followers:%d\n", followers);
+ float views=3.3;
+ printf("Views:%.1f\n", views );
  char letter='$';
- float height=6.1;
- printf("Height:%.1f\n", height );
- if(marks<=30){
-    printf("fail\n");
+ float rating=9.1;
+ printf("Rating:%.1f\n", rating );
+ if(folloers>=134){
+    printf("lie\n");
  }
  else{
-    printf("pass\n");
+    printf("true\n");
  }
   return 0;
-}
