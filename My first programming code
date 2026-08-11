@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+ char name[]= "shaiksahebpasha";
+ printf("Name: %s\n", name);
+ int marks=100;
+ printf("Marks:%d\n",marks);
+ float weight=65.7;
+ printf("Weight:%.1f\n", weight );
+ char letter='$';
+ float height=6.1;
+ printf("Height:%.1f\n", height );
+ if(marks<=30){
+    printf("fail\n");
+ }
+ else{
+    printf("pass\n");
+ }
+  return 0;
+}
